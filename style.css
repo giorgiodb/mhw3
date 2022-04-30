@@ -1,0 +1,123 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+#b1{
+    background-image: url(./images/sfondo1.jpg);
+}
+
+#b2{
+    background-image: url(./images/sfondo2.jpg);
+}
+
+#b3{
+    background-image: url(./images/sfondo3.jpg);
+}
+
+.extra{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf4ff;
+    border-radius: 30px;
+}
+
+.extra h2{
+    margin-bottom: 0px;
+}
+
+#button{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#button a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-family: 'Anton';
+    padding: 3px 7px;
+    border-radius: 25px;
+    padding: 8px;
+    background-color: rgb(164, 164, 216);
+}
+
+#button a:hover{
+    background-color: rgb(121, 121, 201)
+}
+
+.choice-grid{
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.choice-grid div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: calc(32.5% - 22px);
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+}
+
+@media (max-width: 700px){
+    article{
+        width: 95vw;
+    }
+    header div span{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .choice-grid div{
+        width: calc(49% - 22px);
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.unselected{
+    opacity: 0.6;
+}
+
+div.selected{
+    background-color: #cfe3ff;
+}
+
+#risultato{
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#risultato button{
+    background-color: #cecece;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#risultato button:hover{
+    background-color: #e0e0e0;
+}
+
+#risultato h1{
+    margin-top: 0px;
+}
+
+#risultato p{
+    margin-top: 0px;
+    text-align: justify;
+}
+
+
+
+

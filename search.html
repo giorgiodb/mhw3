@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESEARCH</title>
+    <link rel="stylesheet" href="search.css">
+    <script src="search.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous" rel="stylesheet">
+</head>
+<body>
+    <form name ='element' class='element' class="others">
+        
+        <a href="index.html">Home</a>
+
+        <h1>Ricette e Playlists</h1>
+
+        <h4 class="type">Tipologia</h4>
+        <select name='tipo' id='tipo'>
+            <option value='Playlist'>Playlists</option>
+            <option value='Ricette'>Ricette</option>
+        </select>
+
+        <h4 class="type">Search</h4>
+        <label>
+            <input type='text' name='content' id='content'>
+        </label>	
+
+        <label>
+            <input class="submit" type='submit' id="send">
+        </label>       
+    </form>
+        
+    <article id="view" class="hidden"></article>
+    <article id="view-music" class="hidden"></article>
+</body>
+</html>
